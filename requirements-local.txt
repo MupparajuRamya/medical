@@ -1,0 +1,32 @@
+# Healthcare Portal - Local Development Dependencies
+# Use this file for local development setup
+
+# Core Flask Framework
+flask==3.0.0
+flask-sqlalchemy==3.1.1
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Security & Authentication
+werkzeug==3.0.1
+pyjwt==2.8.0
+
+# Email Validation
+email-validator==2.1.0
+
+# Production Server
+gunicorn==21.2.0
+
+# OAuth Support
+oauthlib==3.2.2
+flask-dance==7.0.0
+flask-login==0.6.3
+
+# Development Tools (Optional)
+python-dotenv==1.0.0
+black==23.11.0
+pylint==3.0.3
+pytest==7.4.3
+flask-wtf==1.2.1
